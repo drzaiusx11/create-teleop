@@ -27,7 +27,7 @@ process.stdin.on('keypress', function (ch, key) {
     robot.drive(-SPEED, 1);
   break;
   case 'w':
-    robot.drive(SPEED, 0);
+    robot.drive(-SPEED, 0);
   break;
   }
 });
